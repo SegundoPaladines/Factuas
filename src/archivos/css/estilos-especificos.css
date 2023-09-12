@@ -1,0 +1,30 @@
+.label_platos{
+    -fx-text-fill: #3b2504;
+    -fx-font-family:'Times New Roman';
+    -fx-font-weight: bold;
+    -fx-font-size: 10pt;
+}
+.menu{
+    -fx-background-image: url("/archivos/imagenes/menu.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-padding: 20px;
+    -fx-font-size: 12px;
+    -fx-border-radius: 10px;
+    -fx-position: realtive;
+    -fx-border-color: rgba(70, 56, 9, 0.993);
+    -fx-border:5px;
+    -fx-transition: all 100ms ease;
+}
+.label_pedidos{
+    -fx-background-color: #fbff00;
+    -fx-font-family:'Times New Roman';
+    -fx-font-weight: bold;
+    -fx-font-size: 10pt;
+}
+#idnombres{
+    -fx-background-color: #357a8f;
+    -fx-font-family:'Times New Roman';
+    -fx-font-weight: bold;
+    -fx-font-size: 20pt;
+}

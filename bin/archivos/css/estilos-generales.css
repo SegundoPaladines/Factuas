@@ -1,0 +1,60 @@
+root { 
+    display: block;
+}
+
+.root {
+    -fx-background-image: url("/archivos/imagenes/fondo-pedido.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.label{
+    -fx-text-fill: black;
+    -fx-font-family:'Times New Roman';
+    -fx-font-weight: bold;
+    -fx-font-size: 10pt;
+}
+.text{
+    -fx-font-family:'Times New Roman';
+    -fx-font-weight: bold;
+    -fx-font-size: 10pt;
+}
+.radio-button .radio{
+    -fx-border-width: 2px;
+    -fx-border-color: rgba(129, 9, 9, 0.26);
+    -fx-background-color: #ffffff;
+    -fx-background-image: null  ;
+    -fx-border-radius: 10px  ;
+}
+
+.button {
+    -fx-background-color: #4A80B6;
+    -fx-padding: 5px;
+    -fx-font-size: 12px;
+    -fx-border-radius: 5px;
+    -fx-position: realtive;
+    -fx-border-color: #0000ff;
+    -fx-border:10px;
+    -fx-transition: all 100ms ease;
+}
+.button:hover {
+       
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ff0000;
+}
+.button:pressed{
+    -fx-background-color: #063768;
+}
+.combobox{
+    -fx-background-image: url("/archivos/imagenes/carta.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-color: #ff0000;
+}
+.combo-box .cell{
+    -fx-background-image: url("/archivos/imagenes/menu2.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-text-fill:#7a5f07;
+    -fx-font: 16px "Arial";
+}

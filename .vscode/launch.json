@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Pedido",
+            "request": "launch",
+            "mainClass": "Pedido",
+            "projectName": "Evaluacion 3_45e80b67"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "vmArgs": "--module-path C:\\Users\\Asus-PC\\javafx-sdk-16\\lib --add-modules=javafx.controls,javafx.fxml",
+            "projectName": "Evaluacion 3_45e80b67"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls",
+            "mainClass": "${file}"
+        }
+    ]
+}
